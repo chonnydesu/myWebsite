@@ -2838,7 +2838,10 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #8d82c4;
+				background-image: url('../../images/kaida01.png');
+    			background-size: cover; /* Ensures the image covers the element */
+    			background-position: center; /* Centers the image */
+    			background-repeat: no-repeat; /* Prevents the image from repeating */
 			}
 
 			.tiles article:nth-child(6n - 3):before {
@@ -2849,7 +2852,10 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #e7b788;
+				background-image: url('../../images/kaida01.png');
+    			background-size: cover; /* Ensures the image covers the element */
+    			background-position: center; /* Centers the image */
+    			background-repeat: no-repeat; /* Prevents the image from repeating */
 			}
 
 			.tiles article:nth-child(6n - 1):before {
@@ -2918,7 +2924,7 @@ input, select, textarea {
 
 	.contact-method {
 		margin: 0 0 2em 0;
-		padding-left: 3.25em;
+		padding-left: 4em;
 		position: relative;
 	}
 
