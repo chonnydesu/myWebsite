@@ -2845,14 +2845,14 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-image: url('../../images/revolverRender.jpg');
+				background-image: url('../../images/mushroomRender.jpg');
     			background-size: cover; /* Ensures the image covers the element */
     			background-position: center; /* Centers the image */
     			background-repeat: no-repeat; /* Prevents the image from repeating */
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-image: url('../../images/kaida01.png');
+				background-image: url('../../images/Astar.PNG');
     			background-size: cover; /* Ensures the image covers the element */
     			background-position: center; /* Centers the image */
     			background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -2940,7 +2940,7 @@ input, select, textarea {
 			margin: 0 0 0.5em 0;
 		}
 
-/* Spotlights */
+/* Spotlights (pictures and desc) */
 
 	.spotlights {
 		border-top: 0 !important;
@@ -2959,7 +2959,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #2e3450;
+			background-color: #2a2f4a;
 		}
 
 			.spotlights > section > .image {
@@ -2968,13 +2968,15 @@ input, select, textarea {
 				border-radius: 0;
 				display: block;
 				position: relative;
-				width: 30%;
+				width: 70%;
 			}
 
 				.spotlights > section > .image img {
 					border-radius: 0;
 					display: block;
 					width: 100%;
+					height: 100%;
+					object-fit: cover;
 				}
 
 				.spotlights > section > .image:before {
@@ -3007,7 +3009,7 @@ input, select, textarea {
 				-ms-align-items: center;
 				align-items: center;
 				padding: 2em 3em 0.1em 3em ;
-				width: 70%;
+				width: 30%;
 			}
 
 				.spotlights > section > .content > .inner {
@@ -3174,11 +3176,11 @@ input, select, textarea {
 			}
 
 			#header .logo:hover strong {
-				background-color: #9bf1ff;
+				background-color: #bfbfbf;
 			}
 
 			#header .logo:active strong {
-				background-color: #53e3fb;
+				background-color: #a6a6a6;
 			}
 
 		#header nav {
@@ -3516,7 +3518,7 @@ input, select, textarea {
 		}
 
 		#banner.style2:after {
-    		background-image: url('../../images/revolverRender.jpg');
+    		background-image: url('../../images/ak12.PNG');
     		background-size: cover; /* Ensures the image covers the element */
     		background-position: center; /* Centers the image */
     		background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -3822,7 +3824,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		pointer-events: none;
-		background: rgba(36, 41, 67, 0.9);
+		background: rgba(60,60,60, 0.9);
 		box-shadow: none;
 		height: 100%;
 		left: 0;
