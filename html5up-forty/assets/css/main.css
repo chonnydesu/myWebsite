@@ -2832,7 +2832,7 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-image: url('../../images/selfie01.PNG');
+				background-image: url('../../images/proselfie2.jpg');
     			background-size: cover; /* Ensures the image covers the element */
     			background-position: center; /* Centers the image */
     			background-repeat: no-repeat; /* Prevents the image from repeating */
